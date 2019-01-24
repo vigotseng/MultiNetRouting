@@ -1,7 +1,7 @@
 ::[Bat To Exe Converter]
 ::
 ::YAwzoRdxOk+EWAjk
-::fBw5plQjdCyDJAnU4n5ieCtGQwOQPWaGK6AQ/OHV6v61rVgJXew4RIbY1YgI1TCVB4tjqGeqDYYa0JpFQhJbcXI=
+::fBw5plQjdCyDJAnU4n5ieCtGQwOQPWaGK6AQ/OHV6v61rVgJXew4RIbY1YgJ/RGUMbmkPcdkmHNZl6s=
 ::YAwzuBVtJxjWCl3EqQJgSA==
 ::ZR4luwNxJguZRRnk
 ::Yhs/ulQjdF+5
@@ -26,7 +26,7 @@
 ::ZQ0/vhVqMQ3MEVWAtB9wSA==
 ::Zg8zqx1/OA3MEVWAtB9wSA==
 ::dhA7pRFwIByZRRnk
-::Zh4grVQjdCyDJAnU4n5ieCtGQwOQPWaGK6AQ/OHV6v61rVgJXew4RIrD34iaMukS7lWqcI4otg==
+::Zh4grVQjdCyDJAnU4n5ieCtGQwOQPWaGK6AQ/OHV6v61rVgJXew4RIbY1YiNNPIa60H0O5M10xo=
 ::YB416Ek+ZW8=
 ::
 ::
@@ -35,6 +35,4 @@
 route delete 0.0.0.0
 route delete 10.0.0.0
 route delete 192.0.0.0
-route add -p 192.0.0.0 mask 255.0.0.0 192.168.11.1 metric 10
-route add -p 10.0.0.0 mask 255.0.0.0 10.106.90.126 metric 20
-route add -p 0.0.0.0 mask 0.0.0.0 172.20.10.1 metric 30
+route add -p 0.0.0.0 mask 0.0.0.0 10.106.90.126 metric 10
